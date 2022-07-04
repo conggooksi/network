@@ -1,10 +1,10 @@
 # 리눅스 명령어 익혀보기
 
-  * pwd(print work directory)
-    - 현제 사용자가 있는 디렉토리 출력
+ * pwd(print work directory)
+  - 현제 사용자가 있는 디렉토리 출력
 
-  * ls(list segments)
-    - 속해 있는 곳의 파일과 디렉토리 출력
+ * ls(list segments)
+  - 속해 있는 곳의 파일과 디렉토리 출력
      + ex) ls -al
     - a all -> 숨겨진 파일까지
     - l long - 자세한 내용
@@ -102,6 +102,8 @@ grep -> parameter같은
 output | grep "내용"
 -> output 중에 내용과 일치하는 부분만 output 하라
 
+more -> 페이지 단위로 출력 (스페이스로 페이지 단위로 보기 )
+
 find -> 검색 명령어
 find [path] -option 
 find [path] -name "이름" 
@@ -114,10 +116,10 @@ sort -> 정렬
     - top : 간단한 모니터링 프로그램
     - free : 메모리 모니터링
     - netstat -nltp -> 가장 흔히 사용하는 포트 확인 프로그램
-      + n: IP, port 번호만 호출
-      + l: 대기하는 소켓 호출
-      + t: tcp protocol만
-      + p: PID 출력
+     + n: IP, port 번호만 호출
+     + l: 대기하는 소켓 호출
+     + t: tcp protocol만
+     + p: PID 출력
     - df: 디스크 모니터링
 
   * ifconfig: 네트워크 tool
