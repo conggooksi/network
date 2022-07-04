@@ -131,5 +131,5 @@ sort -> 정렬
     - apt update -y -> ubuntu
     - -y -> 모든 조건에 대해 yes
     - apt upgrade -y
-     + update -> 미러 사이트에서 최신버전을 다운로드
-     + upgrade -> update 된 것을 실제 적용
+      + update -> 미러 사이트에서 최신버전을 다운로드
+      + upgrade -> update 된 것을 실제 적용
