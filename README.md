@@ -16,7 +16,7 @@
     - ex) chmod 777 ./testfile
   * chown -> 소유자/소유그룹 변경
   * chown [변경할 소유자][변경할 파일]
-    > + _ -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile _
+    > + <b>-rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile</b>
     > + -rw-r--r-- : 퍼미션
     > + r: 읽기, w: 쓰기, x: 실행
     > + rwxrwxrwx
@@ -33,14 +33,12 @@
     > + Jul  4 05:32: 생성날짜
     > + testfile: 파일 이름
 
-cd "segments"
-change directory
-
-cd / ( / -> root/ )
-cd ~ (home)
-cd test1/test1/test1
-cd . (현재 디렉토리)
-cd .. (이전 디렉토리)
+  * cd "segments" (change directory)
+    > - cd / ( / -> root/ )
+    > - cd ~ (home)
+    > - cd test1/test1/test1
+    > - cd . (현재 디렉토리)
+    > - cd .. (이전 디렉토리)
 
 sudo "val"
 계정 변경 명령어
