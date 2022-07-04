@@ -3,12 +3,10 @@
   * pwd(print work directory)
     - 현제 사용자가 있는 디렉토리 출력
 
-ls
-list segments
-속해 있는 곳의 파일과 디렉토리 출력
-
-ex) ls -al
-a all -> 숨겨진 파일까지
+  * ls(list segments)
+    - 속해 있는 곳의 파일과 디렉토리 출력
+      + ex) ls -al
+    - a all -> 숨겨진 파일까지
 l long - 자세한 내용
 S size -> 파일 크기 순
 r reverse -> 역순으로
