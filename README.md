@@ -8,22 +8,21 @@
       + ex) ls -al
     - a all -> 숨겨진 파일까지
     - l long - 자세한 내용
-- S size -> 파일 크기 순
-- r reverse -> 역순으로
-- R recursive -> 하위 디렉토리
-- h human -> 보기 좋게
+    - S size -> 파일 크기 순
+    - r reverse -> 역순으로
+    - R recursive -> 하위 디렉토리
+    - h human -> 보기 좋게
+      + -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
+      + -rw-r--r-- : 퍼미션
+      + r: 읽기, w: 쓰기, x: 실행
+      + rwxrwxrwx
+      + 421421421
+      + 퍼미션: 644
+  * chmod "num" "file" (권한 변경도 가능)
+    - ex) chmod 777 ./testfile
 
--rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
--rw-r--r-- : 퍼미션
-r: 읽기, w: 쓰기, x: 실행
-rwxrwxrwx
-421421421
-퍼미션: 644
-chmod "num" "file"
-ex) chmod 777 ./testfile
-
-chown -> 소유자/소유그룹 변경
-chown [변경할 소유자][변경할 파일]
+  * chown -> 소유자/소유그룹 변경
+  * chown [변경할 소유자][변경할 파일]
 
 소유자그룹공개
 소유자: rw
@@ -114,9 +113,14 @@ sort -> 정렬
   * 모니터링 명령어
     - top : 간단한 모니터링 프로그램
     - free : 메모리 모니터링
-    - netstat -nltp
+    - netstat -nltp -> 가장 흔히 사용하는 포트 확인 프로그램
       + n: IP, port 번호만 호출
       + l: 대기하는 소켓 호출
       + t: tcp protocol만
       + p: PID 출력
+    - df: 디스크 모니터링
 
+  * ifconfig: 네트워크 tool
+  * awk [option] [awk program] [argument]
+    - -F: 필드 문자 지정
+    - -f: 프로그램 파일 경로 지정
