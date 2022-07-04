@@ -12,18 +12,16 @@
     - r reverse -> 역순으로
     - R recursive -> 하위 디렉토리
     - h human -> 보기 좋게
-     + -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
-     + -rw-r--r-- : 퍼미션
+  * chmod "num" "file" (권한 변경도 가능)
+    - ex) chmod 777 ./testfile
+  * chown -> 소유자/소유그룹 변경
+  * chown [변경할 소유자][변경할 파일]
+    > + -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
+    > + -rw-r--r-- : 퍼미션
      + r: 읽기, w: 쓰기, x: 실행
      + rwxrwxrwx
      + 421421421
      + 퍼미션: 644
-  * chmod "num" "file" (권한 변경도 가능)
-    - ex) chmod 777 ./testfile
-
-  * chown -> 소유자/소유그룹 변경
-  * chown [변경할 소유자][변경할 파일]
-
 소유자그룹공개
 소유자: rw
 그룹: r
