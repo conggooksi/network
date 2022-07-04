@@ -126,3 +126,10 @@ sort -> 정렬
   * awk [option] [awk program] [argument]
     - -F: 필드 문자 지정
     - -f: 프로그램 파일 경로 지정
+
+  * apt - 프로그램 설치 패키지 매니저
+    - apt update -y -> ubuntu
+    - -y -> 모든 조건에 대해 yes
+    - apt upgrade -y
+     + update -> 미러 사이트에서 최신버전을 다운로드
+     + upgrade -> update 된 것을 실제 적용
