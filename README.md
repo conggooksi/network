@@ -5,19 +5,19 @@
 
   * ls(list segments)
     - 속해 있는 곳의 파일과 디렉토리 출력
-      + ex) ls -al
+     + ex) ls -al
     - a all -> 숨겨진 파일까지
     - l long - 자세한 내용
     - S size -> 파일 크기 순
     - r reverse -> 역순으로
     - R recursive -> 하위 디렉토리
     - h human -> 보기 좋게
-      + -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
-      + -rw-r--r-- : 퍼미션
-      + r: 읽기, w: 쓰기, x: 실행
-      + rwxrwxrwx
-      + 421421421
-      + 퍼미션: 644
+     + -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
+     + -rw-r--r-- : 퍼미션
+     + r: 읽기, w: 쓰기, x: 실행
+     + rwxrwxrwx
+     + 421421421
+     + 퍼미션: 644
   * chmod "num" "file" (권한 변경도 가능)
     - ex) chmod 777 ./testfile
 
