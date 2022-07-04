@@ -7,11 +7,11 @@
     - 속해 있는 곳의 파일과 디렉토리 출력
       + ex) ls -al
     - a all -> 숨겨진 파일까지
-l long - 자세한 내용
-S size -> 파일 크기 순
-r reverse -> 역순으로
-R recursive -> 하위 디렉토리
-h human -> 보기 좋게
+    - l long - 자세한 내용
+- S size -> 파일 크기 순
+- r reverse -> 역순으로
+- R recursive -> 하위 디렉토리
+- h human -> 보기 좋게
 
 -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile
 -rw-r--r-- : 퍼미션
@@ -110,4 +110,13 @@ ex) find / -name testfile
 
 sort -> 정렬
 사전 또는 역순으로 output 정렬 가능 -> 로그 전처리 할 때 주로 사용
+
+  * 모니터링 명령어
+    - top : 간단한 모니터링 프로그램
+    - free : 메모리 모니터링
+    - netstat -nltp
+      + n: IP, port 번호만 호출
+      + l: 대기하는 소켓 호출
+      + t: tcp protocol만
+      + p: PID 출력
 
