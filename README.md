@@ -1,7 +1,7 @@
 # 리눅스 명령어 익혀보기
 
-* pwd(print work directory)
-- 현제 사용자가 있는 디렉토리 출력
+  * pwd(print work directory)
+    - 현제 사용자가 있는 디렉토리 출력
 
 ls
 list segments
