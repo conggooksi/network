@@ -16,7 +16,7 @@
     - ex) chmod 777 ./testfile
   * chown -> 소유자/소유그룹 변경
   * chown [변경할 소유자][변경할 파일]
-    > + _-rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile_
+    > + _ -rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile _
     > + -rw-r--r-- : 퍼미션
     > + r: 읽기, w: 쓰기, x: 실행
     > + rwxrwxrwx
