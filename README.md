@@ -22,17 +22,16 @@
     > + rwxrwxrwx
     > + 421421421
     > + 퍼미션: 644
-소유자그룹공개
-소유자: rw
-그룹: r
-공개: r
-
-1: 링크수
-root: 소유자
-root: 소유그룹
-39: 용량
-Jul  4 05:32: 생성날짜
-testfile: 파일 이름
+    > + 소유자그룹공개
+    > + 소유자: rw
+    > + 그룹: r
+    > + 공개: r
+    > + 1: 링크수
+    > + root: 소유자
+    > + root: 소유그룹
+    > + 39: 용량
+    > + Jul  4 05:32: 생성날짜
+    > + testfile: 파일 이름
 
 cd "segments"
 change directory
