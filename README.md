@@ -6,33 +6,32 @@
  * ls(list segments)
   - 속해 있는 곳의 파일과 디렉토리 출력
      + ex) ls -al
-        > a all -> 숨겨진 파일까지
-        > l long - 자세한 내용
-        > S size -> 파일 크기 순
-        > r reverse -> 역순으로
-        > R recursive -> 하위 디렉토리
-        > h human -> 보기 좋게
+        > a all -> 숨겨진 파일까지  
+        > l long - 자세한 내용  
+        > S size -> 파일 크기 순  
+        > r reverse -> 역순으로  
+        > R recursive -> 하위 디렉토리  
+        > h human -> 보기 좋게  
   * chmod "num" "file" (권한 변경도 가능)
+    > <b>-rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile</b>  
+    > -rw-r--r-- : 퍼미션  
+    > r: 읽기, w: 쓰기, x: 실행  
+    > rwxrwxrwx  
+    > 421421421  
+    > 퍼미션: 644  
+    > 소유자그룹공개  
+    > 소유자: rw  
+    > 그룹: r  
+    > 공개: r  
+    > 1: 링크수  
+    > root: 소유자  
+    > root: 소유그룹  
+    > 39: 용량  
+    > Jul  4 05:32: 생성날짜  
+    > testfile: 파일 이름  
     - ex) chmod 777 ./testfile
   * chown -> 소유자/소유그룹 변경
   * chown [변경할 소유자][변경할 파일]
-    > <b>-rw-r--r-- 1 root  root    39 Jul  4 05:32 testfile</b>
-    > -rw-r--r-- : 퍼미션
-    > r: 읽기, w: 쓰기, x: 실행
-    > rwxrwxrwx
-    > 421421421
-    > 퍼미션: 644
-    > 소유자그룹공개
-    > 소유자: rw
-    > 그룹: r
-    > 공개: r
-    > 1: 링크수
-    > root: 소유자
-    > root: 소유그룹
-    > 39: 용량
-    > Jul  4 05:32: 생성날짜
-    > testfile: 파일 이름
-
   * cd "segments" (change directory)
     > cd / ( / -> root/ )
     > cd ~ (home)
