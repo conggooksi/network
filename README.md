@@ -6,12 +6,12 @@
  * ls(list segments)
   - 속해 있는 곳의 파일과 디렉토리 출력
      + ex) ls -al
-      > a all -> 숨겨진 파일까지
-      > l long - 자세한 내용
-      > S size -> 파일 크기 순
-      > r reverse -> 역순으로
-      > R recursive -> 하위 디렉토리
-      > h human -> 보기 좋게
+        > a all -> 숨겨진 파일까지
+        > l long - 자세한 내용
+        > S size -> 파일 크기 순
+        > r reverse -> 역순으로
+        > R recursive -> 하위 디렉토리
+        > h human -> 보기 좋게
   * chmod "num" "file" (권한 변경도 가능)
     - ex) chmod 777 ./testfile
   * chown -> 소유자/소유그룹 변경
